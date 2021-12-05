@@ -3,6 +3,7 @@ class UserController{
         const {name, surname} = req.body;
         console.log(name, surname);
         res.json("OK");
+        
     }
     async getUsers(req, res){
         
